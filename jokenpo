@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoKenPo</title>
+    <style>
+        body {
+            font: normal 15pt Arial #fff;
+            background-color: #c192ec;
+        }
+        .botao{
+            background: black;
+            height: 150px;
+            width: 200px;
+            font: normal 30pt Arial;
+            color: white;
+            text-align: center;
+            line-height: 150px;
+            border-radius: 10%;
+            margin-left: 17%;
+            margin-bottom: 120px;
+        }
+        #separador{
+            display: flex;
+            margin: auto;
+        }
+        h1{
+            color: white;
+            font: bold 50pt Verdana;
+            text-align: center;
+        }
+        #cabeça{
+            align-self: auto;
+            color: #7e7686;
+            line-break: auto;
+        }
+    </style>
+</head>
+<body background="">
+    <h1>Bem vindo ao JoKenPo!</h1>
+            <div id="separador">
+            <div id="pedra " class="botao" onclick="clica1()" onmouseenter="sobre()" onmouseout="fora()">Pedra</div>
+            <div id="papel" class="botao" onclick="clica2()" onmouseenter="sobre2()" onmouseout="fora2()">Papel</div>
+            <div id="tesoura" class="botao" onclick="clica3()" onmouseenter="sobre3()" onmouseout="fora3()">Tesoura</div></div>
+            <div></a></div>
+   <footer><div id="cabeça">Já sabe as regras do JoKenPo? Se não, <a href="teste2.html">clique aqui.</a></div></footer>
+<script>
+ 
+
+
+
+ /*   // VARS PARA PEGAR UM POR UM
+    var botaoPedra = document.querySelector('div#pedra');
+        botaoPedra.addEventListener('click', clica);
+        botaoPedra.addEventListener('mouseenter', sobre);
+        botaoPedra.addEventListener('mouseout', fora);
+    var botaoPapel = document.querySelector('div#papel');
+    botaoPedra.addEventListener('click', clica);
+        botaoPedra.addEventListener('mouseenter', sobre);
+        botaoPedra.addEventListener('mouseout', fora);
+    var botaoTesoura = document.querySelector('div#tesoura');
+        botaoTesoura.addEventListener('click3', clica);
+        botaoTesoura.addEventListener('mouseenter3', sobre);
+        botaoTesoura.addEventListener('mouseout3', fora);*/
+    // var nome = window.prompt('Qual o seu o nome?');
+    var audioClick = new Audio('button-22.mp3');
+    var audioOver = new Audio('button-40.mp3');
+    var botaoPedra = document.getElementById('pedra ');
+    var botaoPapel = document.getElementById('papel');
+    var botaoTesoura = document.getElementById('tesoura');
+    var bot = getRandom;
+    var cabecalho = document.querySelector('h1');
+    cabecalho = cabecalho.innerText;
+
+    console.log(cabecalho)
+    
+    // botao pedra
+    function clica1(){
+        botaoPedra.style.background = 'white'
+        audioClick.play();
+    }
+    function sobre(){
+        botaoPedra.style.background = '#272727'
+        audioOver.play();
+    }
+    function fora(){
+        botaoPedra.style.background = 'black'
+    }
+
+    // botao papel
+    function clica2(){
+        botaoPapel.style.background = 'white'
+        audioClick.play();
+    }
+    function sobre2(){
+        botaoPapel.style.background = '#272727'
+        audioOver.play();
+    }
+    function fora2(){
+        botaoPapel.style.background = 'black'
+    }
+
+    // botao tesoura
+    function clica3(){
+        botaoTesoura.style.background = 'white'
+        audioClick.play();
+    }
+    function sobre3(){
+        botaoTesoura.style.background = '#272727'
+        audioOver.play();
+    }
+    function fora3(){
+        botaoTesoura.style.background = 'black'
+    }
+
+
+ 
+     /*window.alert('Bem vindo ao jo ken po');
+    var nome = window.prompt('Qual é o seu nome?');
+    valor = Number.parseInt(valor);
+    nome = nome.toUpperCase();
+    window.alert(`${nome}, você escolheu o numero ${valor}!`); */
+
+
+        function getRandom(){
+                return Math.random() * (2,0) + 0;
+};
+
+// if statment para 
+/*
+     if (valor === 0){
+        bot = getRandom();
+            if (bot === 0){
+                console.log('O computador escolheu pedra! Empatou!');
+                window.alert('O computador escolheu pedra! Empatou!');
+            }
+            if (bot === 1){
+                console.log('O computador escolheu papel! Você perdeu!');
+                window.alert('O computador escolheu papel! Você perdeu!')
+            }
+            else {
+            console.log('O computador escolheu tesoura! Você ganhou!');
+            window.alert('O computador escolheu tesoura! Você ganhou!');
+        }
+
+        }
+
+*/
+/* if (valor === 0){
+        bot = getRandom();
+            if (bot === 0){
+                console.log('O computador escolheu pedra! Empatou!');
+                window.alert(`${name}, você empatou! O computador escolheu pedra!`);
+            } else if (bot === 1) {
+                console.log('O computador escolheu papel! Você perdeu!')
+                window.alert(`${name}, você perdeu! O computador escolheu papel!`);
+            } else (bot === 2) 
+                console.log('O computador perdeu!');
+                window.alert(`${name}, você ganhou! O computador escolheu tesoura!`);
+            
+        }*/
+        
+
+  /*      switch (valor){
+            case 0:
+                getRandom();
+                console.log('Pedra');
+                break;
+            case '1':
+                console.log('Papel');
+                break;
+            case '2':
+                console.log('Tesoura');
+        }*/
+        
+</script>
+
+</body>
+</html>
