@@ -1,0 +1,75 @@
+<!-- this is one project of my studies -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM nos OBJETOS</title>
+    <style>
+        div#area {
+            font: normal 30pt Arial;
+            background: rgb(1, 124, 1);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            border-radius: 20%;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        This Div is with the objects commands inside HTML
+        
+    <div id = "area" onclick="clicar()" onmouseenter="entrou()" onmouseout="saiu()">
+        Interaja 
+    </div> 
+ --> 
+ <div id = "area">
+    Interaja 
+  </div>
+
+    <script>
+
+/* this function, pulls the HTML's commands on DIV ID "AREA"
+    
+    var a = window.document.getElementById('area');     
+
+    function clicar() {
+        a.innerText = 'Clicou!'
+        a.style.background = 'red'
+        }
+    function entrou() {
+        a.innerText = 'Passou!'
+    }
+    function saiu() {
+        a.innerText = 'Saiu!'
+        a.style.background = 'green'
+    }
+*/
+
+// This second function uses listeners on JS, getting from HTML.
+
+var a = document.getElementById('area');
+a.addEventListener('click', clicar);
+a.addEventListener('mouseenter', entrou);
+a.addEventListener('mouseout', saiu);
+
+    function clicar() {
+        a.innerText = 'Clicou!';
+        a.style.background = 'red';
+    }
+    function entrou() {
+        a.innerText = 'Passou!'
+    }
+    function saiu() {
+        a.innerText = 'Saiu!'
+        a.style.background= 'green'
+    }
+    </script>
+
+</body>
+</html>
