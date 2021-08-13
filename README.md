@@ -2,8 +2,8 @@
 - 👀 I’m interested in front end development
 - 🌱 Actualy i'm studing JavaScript course sponsored by Google;
 - 💞️ I’m looking to collaborate on front end projects based on JS, React or Angular.
-- 📫 How to reach me
-On LinkedIn: https://www.linkedin.com/in/bryan-lima-a765bb132/
+- 📫 How to reach me: <br/>
+On LinkedIn: https://www.linkedin.com/in/bryan-lima-a765bb132/ <br/>
 On Twitter: https://twitter.com/SiuJoga
 
 <!---
