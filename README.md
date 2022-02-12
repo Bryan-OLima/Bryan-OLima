@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Bryan Lima and i have 26y.
+- 👋 Hi, I’m Bryan Lima and i'm 26y.
 - 👀 I’m interested in front end development
 - 🌱 Actualy i'm studing JavaScript course totally sponsored by Google;
 - 💞️ I’m looking to collaborate on front end projects based on HTML, CSS and JS (Angular and React hereafter).
