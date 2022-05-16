@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Bryan Lima and i'm 26y.
+- 👋 Hi, I’m Bryan Lima and i'm 27y.
 - 👀 I’m interested in back end development
 - 🌱 Actualy i'm studing JavaScript course totally sponsored by Google;
 - 💞️ I’m looking to collaborate on back end projects based on HTML, CSS, JS, PHP and SQL.
@@ -8,7 +8,7 @@ On Twitter: https://twitter.com/SiuJoga
 
 in portuguese:
 
-- 👋 Olá, me chamo Bryan Lima e tenho 26 anos.
+- 👋 Olá, me chamo Bryan Lima e tenho 27 anos.
 - 👀 Eu estou interessado em desenvolvimento back-end!
 - 🌱 Atualmente, estou estudando JavaScript num curso totalmente patrocinado pelo Google (para front) e curso de php e SQL para melhorar no backend;
 - 💞️ Estou procurando colaborar com projetos baseados em HTML, CSS, JS, PHP e SQL.
