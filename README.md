@@ -7,8 +7,6 @@
 </div>
 
 <div><br>
-  <br/>
-  <br/>
  
   <img align="left" alt="Bryan-pic" height="150" style="border-radius:50px;" src="https://i.imgur.com/sRpOonl.png">
 
