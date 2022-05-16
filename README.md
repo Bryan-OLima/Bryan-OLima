@@ -1,7 +1,7 @@
 ## Hello, there! I'm Bryan and i'm 27. Studing .NET and SQL. In the future I'll study Python and R for Data. Future data scientist incomming!
 <div align="center">
   <a href="https://github.com/Bryan-OLima">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=bryan-olima&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=bryan-olima&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bryan-olima&layout=compact&langs_count=7&theme=github_dark"/>
  
 </div>
