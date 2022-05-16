@@ -8,19 +8,18 @@
 
 <div style="display: inline_block"><br>
  
-  <img align="right" alt="Bryan-pic" height="150" style="border-radius:50px;" src="https://i.imgur.com/sRpOonl.png">
+  <img align="left" alt="Bryan-pic" height="150" style="border-radius:50px;" src="https://i.imgur.com/sRpOonl.png">
 
 </div>
   
   ##
  <br/>
 <div> 
-
-
+ 
 
 </div>
 
-<div align ="left"> 
+<div align ="right"> 
   <img align="center" alt="Bryan-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Bryan-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Bryan-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
@@ -33,7 +32,9 @@
 <div align ="left">
 
 </div>
-
+<div >
+  </div>
+  
 
 <!---
 Bryan-OLima/Bryan-OLima is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
