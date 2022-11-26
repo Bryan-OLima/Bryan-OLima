@@ -1,4 +1,4 @@
-## Hey, you. Bryan Here! I'm 27 and I've been studying .NET and SQL, but in the future I'll be focusing on Python and R for Data. Future data scientist incomming!
+## Hey, you. Bryan Here! I'm 27 and I've been studying .NET and SQL, but in the future I'll be focusing on Angular/Typescrypt. Future full stack dev incomming!
 <div align="center">
   <a href="https://github.com/Bryan-OLima">
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=bryan-olima&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
